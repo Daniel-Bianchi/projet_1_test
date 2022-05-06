@@ -31,8 +31,21 @@ a {
   color: aliceblue;
 }
 
-h2 {
+.welcome_img_text_top {
+  position: relative;
   text-align: center;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6rem;
+  color: white;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  padding: 2%;
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 }
 
 #welcome_img {
@@ -45,6 +58,10 @@ h2 {
   margin-bottom: 5%;
   padding: 3%;
   background-color: turquoise;
+}
+
+h2 {
+  text-align: center;
 }
 
 #map {
