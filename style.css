@@ -59,15 +59,12 @@ footer a:hover {
 }
 
 .social_ul, .social {
-
   background-color:turquoise;
   width: 100%;
   height: auto;
   padding-left: 30%;
   padding-right: 60%;
 }
-
-
 
 .fa-facebook {
   color: white;
@@ -295,3 +292,32 @@ h2 {
   
   .nav-container input[type="checkbox"]:checked ~ .logo{
     display: none;
+  }
+
+#contactForm {
+  width: 40%;
+  margin: 10%;
+  padding: 2%;
+  background-color:cadetblue;
+  display: grid;
+  grid-template-columns: 1fr ;
+  justify-items:  center;
+  position: relative;
+  left: 20%;
+  right: 30%;
+}
+
+.contact_form_element {
+  width: 90%;
+}
+
+#name, #email {
+  color: cadetblue;
+}
+
+#submit_btn {
+  border-radius: 0;
+  border: 0 none;
+  box-shadow: none;
+  background-color: turquoise;
+}

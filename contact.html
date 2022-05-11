@@ -39,6 +39,21 @@
             </div>
         </nav>
     </header>
+    <body>
+        <form id="contactForm">
+            <label class="contact_form_element" for="name">Nom :</label><br />
+            <input class="contact_form_element" type="text" id="name" name="name" value="name" /><br />
+            <label class="contact_form_element" for="email">Email :</label><br />
+            <input class="contact_form_element" type="email" id="email" name="email" value="exemple@manger.com"/><br />
+            <label class="contact_form_element" for="message">Message :</label><br />
+            <textarea class="contact_form_element" id="message" name="message"></textarea>
+            <br /><br />
+            <input class="contact_form_element" id="submit_btn" type="submit" value="Submit" />
+            <p class="contact_form_element" class="note">
+              N'hésitez pas à nous suggérer de nouveaux lieux ou de délicieuses recettes
+            </p>
+          </form>
+    </body>
     <footer>
         <ul class="social_ul">
             <div class="social">
@@ -63,5 +78,6 @@
         </ul>
     </footer>
     <script src="script.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>
