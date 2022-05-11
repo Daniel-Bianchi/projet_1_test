@@ -10,27 +10,39 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><img class="logo" src="images projet 1/princeps/izmir-sehir-logo-7281536227-seeklogo.com_.jpg" alt="Logo de la ville d'Izmir"></li>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="prox_location.html">A proximité d'Izmir</a></li>
-                <li><a href="meals_recipes.html">Gastronomie et recettes</a></li>
-            </ul>
+            <div class="navbar">
+                <div class="container nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>  
+                <div class="logo">
+                    <li><img class="logo" src="images_projet_1\princeps\izmir-sehir-logo-7281536227-seeklogo.com_.jpg" alt="Logo de la ville d'Izmir"></li>
+                </div>
+                <div class="menu-items">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="prox_location.html">A proximité d'Izmir</a></li>
+                    <li><a href="meals_recipes.html">Gastronomie et recettes</a></li>
+                </div>
+                </div>
+            </div>
         </nav>
         
     </header>
     <section>
-        <img class="img_welcome" src="Images projet 1/visit_general/visit_pics/ephese_main.jpg" alt="Vue des alentours">
+        <img id="welcome_img" src="images_projet_1/visit_general/visit_pics/ephese_main.jpg" alt="Vue des alentours">
         <h1>A proximité d'Izmir</h1>
         <p>La région</p>
     </section>
     <section>
         <h2>Quelques lieux</h2>
     </section>
-    <section class="container_main">
+    <!--<section class="container_main">
         <div>
             <div>
-                <img class="img_visit" src="Images projet 1/visit_general/visit_near_pics/bodrum-castle.jpg" alt="Vue de Bodrum">
+                <img class="img_visit" src="images_projet_1/visit_general/visit_near_pics/bodrum-castle.jpg" alt="Vue de Bodrum">
             </div>
             <h3>Bodrum</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, inventore ab. Nisi autem quis nostrum reprehenderit inventore quod dolorum, sunt cupiditate dolor temporibus quibusdam, ducimus voluptate molestias sint at nesciunt.
@@ -40,7 +52,7 @@
         </div>
         <div>
             <div>
-                <img class="img_visit" src="Images projet 1/visit_general/visit_near_pics/hierapolis.jpg" alt="Vue du site de hierapolis">
+                <img class="img_visit" src="images_projet_1/visit_general/visit_near_pics/hierapolis.jpg" alt="Vue du site de hierapolis">
             </div>
             <h3>Denizli</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore ex quia incidunt ratione commodi, fuga error, necessitatibus velit sed maiores explicabo cupiditate qui animi rem totam! Impedit officiis nisi excepturi.
@@ -51,7 +63,7 @@
         </div>
         <div>
             <div>
-                <img class="img_visit" src="Images projet 1/visit_general/visit_near_pics/ephese.jpg" alt="Vue du site d'Ephèse">
+                <img class="img_visit" src="images_projet_1/visit_general/visit_near_pics/ephese.jpg" alt="Vue du site d'Ephèse">
             </div>
             <div>
                 <h3>Ephese et Pergame</h3>
@@ -62,10 +74,71 @@
                 Veritatis sint maxime minus iusto est earum natus eligendi sunt sequi. Praesentium laboriosam asperiores necessitatibus saepe, non autem nobis corporis ut repudiandae perspiciatis! Inventore provident alias mollitia voluptas reprehenderit. Tenetur!</p>
             </div>
         </div>
-    </section>
+    </section>-->
+    <div class="cards">
+        <article class="card">
+            <div class="card_header">
+                <h2>Bodrum</h2>
+            </div>     
+            <img class="card_img_scale" src="images_projet_1/visit_general/visit_near_pics/bodrum-castle.jpg" alt="Vue de Bodrum">
+            <div class="content">
+                <p>Bodrum offre un excellent équilibre entre beauté naturelle et patrimoine historique que vous pourrez découvrir en même temps ! Bodrum a un temps ensoleillé chaud pendant dix mois de l’année. Elle regorge aussi de paysages variés : des plages pittoresques, des rivages rocheux sauvages et fleuris, et des sentiers intacts. Alors, avant de vous allonger sur le sable doré au bord de la mer turquoise, pensez à dégourdir un peu vos jambes.
+                    Vous ne trouverez nulle part ailleurs des plages de sable doré et une mer turquoise cristalline aussi authentiques qu’à Bodrum ! Bodrum a de nombreuses plages Pavillon bleu à offrir à ses hôtes. Après avoir participé à de multiples activités et excursions proposées, il n’y a rien de mieux que de s’allonger sur le sable de l'une des plages ensoleillées et de profiter de leurs eaux turquoise et d'un peu de tranquillité !</p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card_header">
+                <h2>Hiérapolis</h2>
+            </div>     
+            <img class="card_img_scale" src="images_projet_1/visit_general/visit_near_pics/hierapolis.jpg" alt="Vue du site de hierapolis">
+            <div class="content">
+                <p>La Cité antique thermale datant de l'époque romaine et byzantine, Hiérapolis, est un site classé au patrimoine mondial de l'UNESCO, elle est située près de Denizli. Cette région est aujourd’hui connue sous le nom de Pamukkale elle abrite une merveille naturelle de renommée mondiale composée de travertins en calcite remplis d'eaux chaudes et riches en sels minéraux. Pamukkale c’est un paysage tout à fait particulier avec ses sources thermales provenant de la vallée de Lycos (Çürüksu). Hiérapolis, la cité où saint Philippe, l'un des douze apôtres de Jésus, fut tué, est l'un des établissements sacrés pour le christianisme. Il fut déclaré comme centre religieux au IVe siècle et devint le centre épiscopal à l'époque byzantine.</p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card_header">
+                <h2>Ephese</h2>
+            </div>     
+            <img class="card_img_scale" src="images_projet_1/visit_general/visit_near_pics/ephese.jpg" alt="Vue du site d'Ephèse">
+            <div class="content">
+                <p>La cité antique d’Éphèse est la ville ancienne la plus importante de Türkiye et l’une des mieux conservées et restaurées. La cité est composée de bâtiments publics aussi grands que l'impressionnante bibliothèque de Celsus, le théâtre, le temple d'Hadrien et le site du somptueux temple d'Artémis qui était l'une des sept merveilles du monde antique.</p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card_header">
+                <h2>Pergame</h2>
+            </div>     
+            <img class="card_img_scale" src="images_projet_1/visit_general/visit_near_pics/Pergame1.jpg" alt="">
+            <div class="content">
+                <p>
+                    Pergame a été inscrite sur la liste du patrimoine mondial de l'UNESCO en 2014. C'est un exemple rare de colonie qui a survécu à plusieurs invasions et dévastations au cours des âges, mais qui a toujours été réhabilitée en raison de son emplacement stratégique. Pergame, quant à elle, a survécu à la domination perse et à la conquête d'Alexandre le Grand. À cette époque, l'une des plus grandes bibliothèques du monde y fut construite.</p>
+            </div>
+        </article>
+    </div>
+
     <footer>
-        <a href="poll.html">Sondage</a>
-        <a href="contact.html">Contact</a>
+        <ul class="social_ul">
+            <div class="social">
+                <a href="http://facebook.fr" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </div>
+            <div class="social">
+                <a href="http://twitter.fr" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+            <div class="social">
+                <a href="http://instagram.fr" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+            <div class="social_li">
+                <li><a href="poll.html">Sondage</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+        </ul>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
